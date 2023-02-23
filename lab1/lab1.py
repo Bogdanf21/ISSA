@@ -13,7 +13,7 @@ while True:
     trapezoid = np.empty_like(frame)
     # Add a named window
     cv2.namedWindow("trapezoid", cv2.WINDOW_NORMAL)
-    #cv2.imshow("trapezoid")
+    # cv2.imshow("trapezoid")
     cv2.imshow('Original', frame)
 
     if cv2.waitKey(1) & 0xFF == ord('q'):
